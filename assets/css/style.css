@@ -78,11 +78,6 @@
         text-decoration: none;
         color: white;
     }
-  /* Icons */
-.icons{
-    color:white;
-
-}
  
  /* Navigation */
 
@@ -144,4 +139,38 @@ nav a:hover {
   
     }  
     */
+ /* Icons */
+ .icons{
+  color:white;
+}
 
+	.icons.major {
+    float: left;
+    width: 2em;
+    height: 2em;
+    display: block;
+    background: #ffffff;
+    border-radius: 100%;
+    color: #312450;
+    text-align: center;
+    line-height: 2em;
+    margin: 0 0.5em 0 0;
+  }
+
+  .about ul li{
+    list-style-type: disc;
+  }
+/* Projects */
+.card{
+  margin: 5% 0%;
+}
+
+.card-body{
+  margin: 0% 0% 0% 3%;
+  padding: 6% 0%;
+  color: black;
+}
+
+.test{
+    border:2px solid yellow;
+}
