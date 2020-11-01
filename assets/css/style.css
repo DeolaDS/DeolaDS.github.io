@@ -3,13 +3,14 @@
   } 
 
   body{
+        height: 100%;
         margin: 0px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         color: #ffffff;
         background-color:#2C2A38;
         font-size: 16.5pt;
         font-weight: normal;
         line-height: 1.75;
+        font-family: "futura-pt", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   }
   
     @media screen and (max-width: 1680px) {
@@ -174,7 +175,7 @@ nav a:hover {
 
 /* Home Page */
 
-html, body{
+.home{
   margin: 0 auto;
   height: 100%;
   font-family: 'Roboto', sans-serif;
@@ -194,16 +195,6 @@ html, body{
 }
 
 
-@media (max-width: 600px) {
-h1 {
-    font-size: 40pt;
-  }
-p {
-  font-size: 20pt;
-  font-weight: 300;
-}
-}
-
 @media (max-width: 364px) {
 h1 {
     font-size: 30pt;
@@ -212,4 +203,37 @@ p {
   font-size: 15pt;
   font-weight: 300;
 }
+}
+
+.home{
+  text-align: center;
+}
+#homecontact ul li {
+  display: inline;
+  margin-right: 2%;
+  font-size: 1em;
+}
+
+.about {
+  text-align: center;
+}
+
+.projects-item {
+  padding: 3%;
+  /*
+  background-color: #ebebeb;
+  */
+
+}
+
+.projects-dev h3 {
+  color:cornflowerblue;
+  /*border:5px dotted cornflowerblue;*/
+
+}
+
+.projects-design h3 {
+  color:pink;
+  /*border: 5px dotted #bd59d4;*/
+
 }
