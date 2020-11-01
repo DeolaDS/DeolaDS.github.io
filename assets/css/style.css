@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
   } 
+
   body{
         margin: 0px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -130,7 +131,7 @@ nav a:hover {
         }
   
     }
-  /*
+  
     @media screen and (max-width: 736px) {
   
         .wrapper > .inner {
@@ -138,7 +139,7 @@ nav a:hover {
         }
   
     }  
-    */
+    
  /* Icons */
  .icons{
   color:white;
@@ -171,6 +172,44 @@ nav a:hover {
   color: black;
 }
 
-.test{
-    border:2px solid yellow;
+/* Home Page */
+
+html, body{
+  margin: 0 auto;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+#header {
+  background: linear-gradient(rgba(0, 0, 75, 0.5), rgba(30, 0, 0, 0.5));
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  display: flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  margin: 0 auto;
+}
+
+
+@media (max-width: 600px) {
+h1 {
+    font-size: 40pt;
+  }
+p {
+  font-size: 20pt;
+  font-weight: 300;
+}
+}
+
+@media (max-width: 364px) {
+h1 {
+    font-size: 30pt;
+  }
+p {
+  font-size: 15pt;
+  font-weight: 300;
+}
 }
