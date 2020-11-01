@@ -1,4 +1,3 @@
-
 * {
     box-sizing: border-box;
   } 
@@ -75,10 +74,10 @@
         list-style-type: none;
     }
 
-a, a:visited, a:active{
-    text-decoration: none;
-    color: white;
-  }
+    a, a:visited, a:active{
+        text-decoration: none;
+        color: white;
+    }
   /* Icons */
 .icons{
     color:white;
@@ -111,9 +110,11 @@ nav {
   nav a:hover {
     /* color: rgba(255, 255, 255, 0.55);*/
      background-color: #a381f3;
+     text-decoration: none;
    }
   
    @media (max-width:600px) {
+       
     nav .nav-btn {
       display: inline-block;
       position: absolute;
@@ -189,6 +190,4 @@ nav {
         }
   
     }  
-.about h1{
-    color: 
-}
+
