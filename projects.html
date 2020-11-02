@@ -41,10 +41,18 @@
     <section class="wrapper">
       <div class="inner">
         <h1>Projects</h1>
-        <div class= "row">
-          <div class="col-xs-12 col-md-4 ">
-            <div class="card text-white projects-dev">
-              <div class="card-title"><h3>Murdoch University Job Portal</h3></div>
+ 
+        <div id="accordion">
+          <div class="card text-white projects-dev">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                 Murdoch University Job Portal
+                </button>
+              </h5>
+            </div>
+        
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
               <div class="card-body">
                 <p>
                   A job portal exclusively for Murdoch University, Dubai students. Mockups and prototyping made with Adobe XD. Developed with Django, HTML/CSS, and PostgreSQL.
@@ -55,10 +63,15 @@
               </div>
             </div>
           </div>
-
-          <div class="col-xs-12 col-md-4">
-            <div class="card text-white projects-dev ">
-              <div class="card-title"><h3>My Portfolio Website</h3></div>
+          <div class="card text-white projects-dev">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  My Portfolio Website
+                </button>
+              </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
               <div class="card-body">
                 <p>
                   A simple website to showcase project work. Created with HTML, CSS, JavaScript and Bootstrap 4.
@@ -69,9 +82,15 @@
               </div>
             </div>
           </div>
-          <div class="col-xs-12 col-md-4">
-            <div class="card text-white projects-design">
-              <div class="card-title"><h3>WebCrux Digital</h3></div>
+          <div class="card text-white projects-design">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  WebCrux Digital
+                </button>
+              </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
               <div class="card-body">
                 <p>
                   A web design concept for a startup I came up with in a class. Mockups and prototypes created with Adobe XD.
@@ -81,9 +100,15 @@
               </div>
             </div>
           </div>
-          <div class="col-xs-12 col-md-4">
-            <div class="card text-white projects-design">
-              <div class="card-title"><h3>Macadior Beauty</h3></div>
+          <div class="card text-white projects-design">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Macadior Beauty
+                </button>
+              </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
               <div class="card-body">
                 <p>
                   Web design concept for a skincare and makeup brand. Mockups and protypes created with Adobe XD.
@@ -93,9 +118,15 @@
               </div>
             </div>
           </div>
-          <div class="col-xs-12 col-md-4">
-            <div class="card text-white projects-dev">
-              <div class="card-title"><h3>E-commerce website</h3></div>
+          <div class="card text-white projects-dev">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  E-commerce website
+                </button>
+              </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
               <div class="card-body">
                 <p>
                   Web design concept for a skincare and makeup brand. Mockups and protypes created with Adobe XD.
@@ -106,12 +137,18 @@
               </div>
             </div>
           </div>
-          <div class="col-xs-12 col-md-4">
-            <div class="card text-white projects-design">
-              <div class="card-title"><h3>Landing Page</h3></div>
+          <div class="card text-white projects-dev">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Landing Page  
+                </button>
+              </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
               <div class="card-body">
                 <p>
-                  Web design concept for a skincare and makeup brand. Mockups and protypes created with Adobe XD.
+                 
                 </p>
                 <button type="button" class="btn btn-outline-light"><a data-toggle="modal" href="#portfolio">Demo</a></button>
                 <button type="button" class="btn btn-outline-light"><a href="#">Design</a></button>
@@ -120,8 +157,48 @@
             </div>
           </div>
 
-        </div><!--End Row-->
-       
+          
+        </div><!--End Accordion-->
+
+
+
+        <!--Modals-->
+
+        <div id="portfolio" class="modal fade" role="dialog">
+          <div class="modal-dialog modal-lg">
+  
+              <!-- Modal content-->
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <p class="modal-title">My Portfolio Website</p>
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                  <div class="modal-body">
+                     <p>test</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+        <div class="modal" tabindex="-1" role="dialog">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Murdoch University Job Portal</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>Modal body text goes here.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
       
      
      

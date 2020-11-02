@@ -194,7 +194,7 @@ nav a:hover {
   font-size: 1em;
 }
 
-/* Projects */
+/* Projects 
 .card{
   margin: 4% 3%;
   padding: 2% 2%;
@@ -207,12 +207,22 @@ padding: 2%;
 
 }
 
+*/
+.card-body{
+  padding: 3% 3%;
+
+  }
+  .card{
+    background-color: transparent;
+
+  }
+
 .card.projects-dev{
-  border:1px dotted rgb(255, 255, 73);
+  border:1px solid rgb(255, 255, 73);
 
 }
 
 .card.projects-design {
-  border: 1px dotted #4bf3ff;
+  border: 1px solid #4bf3ff;
 
 }
