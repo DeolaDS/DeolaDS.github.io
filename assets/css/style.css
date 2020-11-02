@@ -143,30 +143,6 @@ nav a:hover {
   }
  }
 
-
- /* Icons */
- .icons{
-  color:white;
-}
-
-	.icons.major {
-    float: left;
-    width: 2em;
-    height: 2em;
-    display: block;
-    background: #ffffff;
-    border-radius: 100%;
-    color: #312450;
-    text-align: center;
-    line-height: 2em;
-    margin: 0 0.5em 0 0;
-  }
-
-  .about ul li{
-    list-style-type: disc;
-  }
-
-
 /* Home Page */
 
 .home{
@@ -197,51 +173,53 @@ nav a:hover {
   font-size: 1em;
 }
 
-/* Projects 
-.card{
-  margin: 4% 3%;
-  padding: 2% 2%;
-  background-color: transparent;
-  text-align: center;
+
+ /* Icons */
+ .icons{
+  color:white;
 }
 
+	.icons.major {
+    float: left;
+    width: 2em;
+    height: 2em;
+    display: block;
+    background: #ffffff;
+    border-radius: 100%;
+    color: #312450;
+    text-align: center;
+    line-height: 2em;
+    margin: 0 0.5em 0 0;
+  }
+
+  .about ul li{
+    list-style-type: disc;
+  }
+
+
+/* Projects */
+
 .card-body{
-padding: 2%;
-
-}
-
-*/
-.card-body{
-  padding: 3% 3%;
-
+  padding: 0 3% 2% 3%;
   }
   .card{
     background-color: transparent;
 
   }
-
   .card.projects-dev{
-    border: 1px solid #4D10FB ;
-   
-  /*border:1px solid rgb(255, 255, 73);*/
-
+    border: 1px solid #3500d3b0;
 }
-
-
+.card-header{
+  border-bottom: none;
+}
 .card.projects-design {
-    border: 1px solid #fbff1d ;
- /* border: 1px solid #4bf3ff;*/
-
+    border: 1px solid #ff1db4d8;
 }
 
 .card-body .btn:hover{
   background-color: rgba(137, 16, 251, 0.452)
 }
 
-.card .btn-link{
-  color: white;
-}
-
-.card a{
+.card.projects-design .btn-link, .card.projects-dev .btn-link, .card a {
   color: white;
 }
