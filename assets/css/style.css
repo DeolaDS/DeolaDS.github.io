@@ -229,10 +229,19 @@ padding: 2%;
 
 
 .card.projects-design {
-    border: 1px solid #ff1dff ;
+    border: 1px solid #fbff1d ;
  /* border: 1px solid #4bf3ff;*/
 
 }
+
 .card-body .btn:hover{
-  background-color: #4D10FB;
+  background-color: rgba(137, 16, 251, 0.452)
+}
+
+.card .btn-link{
+  color: white;
+}
+
+.card a{
+  color: white;
 }
