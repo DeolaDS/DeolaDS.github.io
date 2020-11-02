@@ -6,7 +6,7 @@
         height: 100%;
         margin: 0px;
         color: #ffffff;
-        background-color:#2C2A38;
+        background-color:#0F0A13;
         font-size: 16.5pt;
         font-weight: normal;
         line-height: 1.75;
@@ -84,14 +84,14 @@
  /* Navigation */
 
  nav {
-  background-color: #312450;
+  background-color: #0c0032;
   position: fixed;
   top: 0;
 }
 
 nav a:hover {
   /* color: rgba(255, 255, 255, 0.55);*/
-   background-color: #a381f3;
+   background-color: #3500d3;
    text-decoration: none;
  }
  #nav-title{
@@ -217,12 +217,19 @@ padding: 2%;
 
   }
 
-.card.projects-dev{
-  border:1px solid rgb(255, 255, 73);
+  .card.projects-dev{
+    border: 1px solid #4D10FB ;
+   
+  /*border:1px solid rgb(255, 255, 73);*/
 
 }
 
-.card.projects-design {
-  border: 1px solid #4bf3ff;
 
+.card.projects-design {
+    border: 1px solid #ff1dff ;
+ /* border: 1px solid #4bf3ff;*/
+
+}
+.card-body .btn:hover{
+  background-color: #4D10FB;
 }
