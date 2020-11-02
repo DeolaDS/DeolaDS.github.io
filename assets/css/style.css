@@ -162,16 +162,7 @@ nav a:hover {
   .about ul li{
     list-style-type: disc;
   }
-/* Projects */
-.card{
-  margin: 5% 0%;
-}
 
-.card-body{
-  margin: 0% 0% 0% 3%;
-  padding: 6% 0%;
-  color: black;
-}
 
 /* Home Page */
 
@@ -194,17 +185,6 @@ nav a:hover {
   margin: 0 auto;
 }
 
-
-@media (max-width: 364px) {
-h1 {
-    font-size: 30pt;
-  }
-p {
-  font-size: 15pt;
-  font-weight: 300;
-}
-}
-
 .home{
   text-align: center;
 }
@@ -214,26 +194,25 @@ p {
   font-size: 1em;
 }
 
-.projects {
+/* Projects */
+.card{
+  margin: 4% 3%;
+  padding: 2% 2%;
+  background-color: transparent;
   text-align: center;
 }
 
-.projects-item {
-  padding: 3%;
-  /*
-  background-color: #ebebeb;
-  */
+.card-body{
+padding: 2%;
 
 }
 
-.projects-dev h3 {
-  color:cornflowerblue;
-  /*border:5px dotted cornflowerblue;*/
+.card.projects-dev{
+  border:1px dotted rgb(255, 255, 73);
 
 }
 
-.projects-design h3 {
-  color:pink;
-  /*border: 5px dotted #bd59d4;*/
+.card.projects-design {
+  border: 1px dotted #4bf3ff;
 
 }
