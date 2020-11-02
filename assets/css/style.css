@@ -6,7 +6,7 @@
         height: 100%;
         margin: 0px;
         color: #ffffff;
-        background-color:#0F0A13;
+        background-color: #11082A;
         font-size: 16.5pt;
         font-weight: normal;
         line-height: 1.75;
@@ -81,29 +81,6 @@
         color: white;
     }
  
- /* Navigation */
-
- nav {
-  background-color: #0c0032;
-  position: fixed;
-  top: 0;
-}
-
-nav a:hover {
-  /* color: rgba(255, 255, 255, 0.55);*/
-   background-color: #3500d3;
-   text-decoration: none;
- }
- #nav-title{
-   display: none;
- }
-
- @media screen and (max-width: 575px){
-  #nav-title{
-    display: block;
-  }
- }
-
   /* Theme 
   .wrapper {
     position: relative;
@@ -141,6 +118,32 @@ nav a:hover {
   
     }  
     
+
+
+ /* Navigation */
+
+ nav {
+  background-color: #090317 ;
+  position: fixed;
+  top: 0;
+}
+
+nav a:hover {
+  /* color: rgba(255, 255, 255, 0.55);*/
+   background-color: #6a4eaa;
+   text-decoration: none;
+ }
+ #nav-title{
+   display: none;
+ }
+
+ @media screen and (max-width: 575px){
+  #nav-title{
+    display: block;
+  }
+ }
+
+
  /* Icons */
  .icons{
   color:white;
