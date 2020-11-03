@@ -1,16 +1,27 @@
 * {
     box-sizing: border-box;
   } 
-
+  /*
+  html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+*/
+html{
+  background: linear-gradient(#07043D, #1C050B);
+}
   body{
         height: 100%;
+        width: 100%;
         margin: 0px;
         color: #ffffff;
-        background-color: #11082A;
+        background: linear-gradient(#07043D, #1C050B);
+        /*background-color:  #1e1e1e;/* #11082A; */
         font-size: 16.5pt;
         font-weight: normal;
         line-height: 1.75;
-        font-family: "futura-pt", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        font-family: 'Arial Narrow', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   
     @media screen and (max-width: 1680px) {
@@ -123,14 +134,17 @@
  /* Navigation */
 
  nav {
-  background-color: #090317 ;
+  background-color: #1e1e1e ;
   position: fixed;
   top: 0;
 }
-
+nav a{
+  color: white;
+} 
 nav a:hover {
   /* color: rgba(255, 255, 255, 0.55);*/
-   background-color: #6a4eaa;
+ /*  background-color: #6a4eaa;*/
+ background-color:#7B42FE ;
    text-decoration: none;
  }
  #nav-title{
@@ -153,7 +167,8 @@ nav a:hover {
 }
 
 #header {
-  background: linear-gradient(rgba(0, 0, 75, 0.5), rgba(30, 0, 0, 0.5));
+
+  /*background: linear-gradient(rgba(0, 0, 75, 0.87), rgba(30, 0, 0, 0.815));*/
   height: 100vh;
   width: 100vw;
   background-size: cover;
@@ -165,13 +180,9 @@ nav a:hover {
 }
 
 .home{
-  text-align: center;
+  text-align: left;
 }
-#homecontact ul li {
-  display: inline;
-  margin-right: 2%;
-  font-size: 1em;
-}
+
 
 
  /* Icons */
@@ -204,22 +215,29 @@ nav a:hover {
   }
   .card{
     background-color: transparent;
-
+    border: 0.5px solid #7B42FE;
   }
-  .card.projects-dev{
-    border: 1px solid #3500d3b0;
+  .card-header{
+    border-bottom: none;
+  }
+  .card.projects-dev:hover{
+   /* background-color: #855cff49;*/
+   /* border: 1px solid #3500d3b0;*/
 }
-.card-header{
-  border-bottom: none;
-}
-.card.projects-design {
-    border: 1px solid #ff1db4d8;
+
+.card.projects-design:hover  {
+/* background-color: #e45cff49;*/
+ /*   border: 1px solid #ff1db4d8;*/
 }
 
 .card-body .btn:hover{
-  background-color: rgba(137, 16, 251, 0.452)
+  background-color: #9263FF;
 }
 
 .card.projects-design .btn-link, .card.projects-dev .btn-link, .card a {
   color: white;
+}
+#homecontact a{
+ /* border: 2px solid yellow;*/
+  margin: 0 3% 0 0;
 }
