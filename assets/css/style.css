@@ -46,9 +46,15 @@
   h3{
   font-size: 1em;
   }
+  /*
   h4{
-    font-size: 0.5em;
+    font-size: 1.5em;
   }
+  h5{
+    font-size: 1.2em;
+  }
+  */
+ 
 
   /* Font sizes*/
   @media screen and (max-width: 1680px) {
@@ -254,35 +260,33 @@ nav a:hover {
 
 /* Projects */
 .card-body{
-padding: 0 1em 1em 1em;
-}
-.card{
+  padding: 0.8em 1em 1em 0;
+  }
+  .card{
   background-color: transparent;
-  border: 0.5px solid #7B42FE;
-}
+  color: white;  
+  margin-bottom: 1em;
+  }
+  
+  .card a{
+    text-decoration: none;
+  }
+  .card a:hover{
+    color: white;
+    background-color:transparent;
+  }
+  /* Size image*/
 
-@media screen and (max-width: 450px){
-  .card-body{
-   text-align: center;
-    }
-}
-.card-header{
-  border-bottom: none;
-}
-.card.projects-dev:hover{
-  /* background-color: #855cff49;*/
-  /* border: 1px solid #3500d3b0;*/
-}
+  /*Animate image*/
+  .card-image-top:hover{
+    
+  }
+  @media screen and (max-width: 450px){
+    .card-body{
+     text-align: center;
+      }
+  }
 
-.card.projects-design:hover  {
-/* background-color: #e45cff49;*/
-/*   border: 1px solid #ff1db4d8;*/
-}
-
-.card-body .btn:hover{
-  background-color: #7B42FE;
-}
-
-.card.projects-design .btn-link, .card.projects-dev .btn-link, .card a {
-  color: white;
-}
+  .modal{
+    color: black;
+  }
