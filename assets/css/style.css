@@ -276,11 +276,18 @@ nav a:hover {
     background-color:transparent;
   }
   /* Size image*/
+  .card-img-top{
 
-  /*Animate image*/
-  .card-image-top:hover{
-    
+
   }
+  
+  @media screen and (min-width:500px){
+  /*Animate image*/
+  .card-img-top:hover{
+    transition: all .2s ease-in-out;
+    transform: scale(1.05);
+  }
+}
   @media screen and (max-width: 450px){
     .card-body{
      text-align: center;
