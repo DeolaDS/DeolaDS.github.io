@@ -10,9 +10,7 @@
   body{
         height: 100%;
         width: 100%;
-        margin: 0px;
-      
-
+        
         font-size: 16.5pt;
         font-weight: normal;
         line-height: 1.75;
@@ -29,7 +27,7 @@
   
   body{
     color: #ffffff;
-    background: linear-gradient(#07043D, #1C050B);
+    background: linear-gradient(#07043D, #300913);
     background-color: #0B0536;
     font-family: 'Arial Narrow', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
@@ -75,7 +73,7 @@
   @media screen and (max-width: 786px) {
 
     body {
-      font-size: 1.1em;
+      font-size: 1em;
     }
 
   }
@@ -111,13 +109,6 @@
       font-size: 1em;
   }
  */
-
-  /* Layout */
-  
-  
- 
-  /* Layout  */
-  
 
   .wrapper{
     position: relative;
@@ -178,13 +169,7 @@
   padding: 4em 3em 1em 3em;
 }
 
-footer{
-  font-size: 0.7em;
-  padding: 4% 2%;
-  text-align: center;
-  color: #ffffffc7;
-  background-color: #1a030362;
-}
+
 
 
 /***************************************************************************************************/
@@ -238,6 +223,16 @@ nav a:hover {
   }
  }
 
+
+
+ footer{
+  font-size: 0.7em;
+  padding: 3% 2%;
+  text-align: center;
+  color: #ffffffc7;
+  background-color: #300913;
+}
+
 /* Home */
 #homecontact a{
    margin: 0 3% 0 0;
@@ -277,17 +272,23 @@ nav a:hover {
   }
   /* Size image*/
   .card-img-top{
-
-
+    width: 100%;
+    object-fit: cover;
   }
+  /*
+@media screen and (min-width: 600px){
+  .card-img-top{
+   
+  }
+}*/
   
-  @media screen and (min-width:500px){
   /*Animate image*/
   .card-img-top:hover{
     transition: all .2s ease-in-out;
     transform: scale(1.05);
+    cursor: pointer;
   }
-}
+
   @media screen and (max-width: 450px){
     .card-body{
      text-align: center;
