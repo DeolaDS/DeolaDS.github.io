@@ -200,7 +200,7 @@ nav a, .btn a{
 
  /* Navigation */
  nav {
-  background-color: #07043D ;
+  background-color: #080546 ;
   position: fixed;
   top: 0;
 }
@@ -229,7 +229,7 @@ nav a:hover {
   padding: 3% 2%;
   text-align: center;
   color: #ffffffc7;
-  background-color: #300913;
+  background-color: #300913b0;
 }
 
 /* Home */
