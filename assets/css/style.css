@@ -1,10 +1,8 @@
-  /*
-  html {
-    font-family: sans-serif;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-  }
-*/
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
 
 /*
   body{
@@ -26,9 +24,9 @@
   }
   
   body{
-    color: #ffffff;
-    background: linear-gradient(#090550, #300913);
-    background-color: #0B0536;
+    color:black;
+    /*background: linear-gradient(#090550, #300913);*/
+    background-color: rgb(250, 248, 248);
     font-family: 'Arial Narrow', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
@@ -37,6 +35,7 @@
   }
   h1{
     font-size: 2em;
+    color: #7042D1;
   }
   h2{
     font-size: 1.5em;
@@ -44,15 +43,7 @@
   h3{
   font-size: 1em;
   }
-  /*
-  h4{
-    font-size: 1.5em;
-  }
-  h5{
-    font-size: 1.2em;
-  }
-  */
-
+ 
   /* Font sizes*/
   @media screen and (max-width: 1680px) {
   
@@ -84,31 +75,6 @@
     }
 
   }
-/*
-    
-    
-    @media screen and (max-width: 736px) {
-    
-      h1 {
-        font-size: 2em;
-      }
-    
-      h2 {
-        font-size: 1.25em;
-      }
-    
-      h3 {
-        font-size: 1em;
-      }
-    
-    }
-    
-
-  p{
-      font-size: 1em;
-  }
- */
-
   .wrapper{
     position: relative;
   }
@@ -119,42 +85,6 @@
     width: 75em;  
     min-height: 100vh;  
   }
-  
-/*
-  @media screen and (max-width:500px){
-   .wrapper.inner {
-      padding: 4em 2em 1em 2em ;
-   }
-  }
-
-  @media screen and (max-width: )
-
-
-    @media screen and (max-width: 1680px) {
-  
-        .wrapper .inner {
-            padding: 4em 4em 2em 4em ;
-        }
-  
-    }
-  
-    @media screen and (max-width: 1280px) {
-  
-        .wrapper .inner {
-            width: 100%;
-        }
-  
-    }
-  
-    @media screen and (max-width: 736px) {
-  
-        .wrapper .inner {
-            padding: 3em 2em 1em 2em ;
-        }
-  
-    }  
-
-*/
 
 #header {
   height: 100vh;
@@ -168,17 +98,6 @@
   padding: 4em 3em 1em 3em;
 }
 
-
-
-
-/***************************************************************************************************/
-
-/* Completed Styling*/
-
-
-
-
-
 /* General CSS */
 ul li{
   list-style-type: none;
@@ -186,12 +105,12 @@ ul li{
 
 a, a:visited, a:active{
   text-decoration: underline;
-  text-decoration-color: #7B42FE;
+  text-decoration-color: #47249bc2;
   color: white;
 }
 a:hover{
   color: white;
-  background-color: #7B42FE;
+  background-color: #6833e2d8;
 }
 
 nav a, .btn a{
@@ -200,14 +119,15 @@ nav a, .btn a{
 
  /* Navigation */
  nav {
-  background-color: #080546 ;
+  background-color: #7042D1; ;
   position: fixed;
   top: 0;
 }
 
 nav a:hover {
-  background-color:#7B42FE ;
-  text-decoration: none;
+ color: white;
+  text-decoration: underline;
+  
  }
  #nav-title{
    display: none;
@@ -221,8 +141,6 @@ nav a:hover {
     display: block;
   }
  }
-
-
 
  footer{
   font-size: 0.7em;
