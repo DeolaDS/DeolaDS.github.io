@@ -3,7 +3,6 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
-
 body, html {
   height: auto;
   width: auto;
@@ -11,13 +10,11 @@ body, html {
   
 body{
   color:white;
-  /*background: linear-gradient(#090550, #300913);*/
   background-color: #1e1e1e;
-  /*font-family: 'Arial Narrow', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-h1,h2,h3,h4,h5{
+h1,h2,h3{
   font-family: 'Cairo', sans-serif;
 }
 h1{
@@ -29,7 +26,8 @@ h2{
   color: #42BFD1;
 }
 h3{
-font-size: 1em;
+  font-size: 1em;
+  font-weight: bold;
 }
  
 /* Font sizes*/
@@ -88,7 +86,7 @@ font-size: 1em;
 }
 
 /* General CSS */
-ul li{
+nav ul li{
   list-style-type: none;
 }
 
@@ -99,7 +97,7 @@ a, a:visited, a:active{
 }
 a:hover{
   color: white;
-  background-color: #8c5bffd8;
+  background-color: #965dff;
   text-decoration: none;
 }
 
@@ -109,13 +107,13 @@ nav a, .btn a{
 
  /* Navigation */
  nav {
-  background-color: #219572;
+  background-color: #1f8f6d;
   position: fixed;
   top: 0;
 }
 
 nav a:hover {
- color: white;
+  color: white;
   text-decoration: underline;
   
  }
@@ -162,6 +160,7 @@ nav a:hover {
 }
 
 /* Projects */
+
 .card-body{
   padding: 0.8em 1em 1em 0;
   }
@@ -169,7 +168,7 @@ nav a:hover {
   background-color: transparent;
   color: white;  
   margin-bottom: 1em;
-  border: none;
+  /*border: none;*/
   }
   .card a{
     text-decoration: none;
