@@ -9,7 +9,7 @@ body, html {
 }
   
 body{
-  color:white;
+  color:rgb(235, 222, 222);
   background-color: #1e1e1e;
   font-family: Georgia, 'Times New Roman', Times, sans-serif;
 }
@@ -223,7 +223,7 @@ nav a:hover {
 }
 */
 .modal-content {
-  background-color: #f4f7f6;
+  background-color: #f4f7f6ec;
   min-width: 50%;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
